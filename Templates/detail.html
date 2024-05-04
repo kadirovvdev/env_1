@@ -11,5 +11,6 @@ CAtegory: {{ product.category }}<br>
 Body: {{ product.body }}<hr/>
 
 <a href="{% url 'get_info'%}" >home</a><br>
+<a href="{% url 'update' product.pk %}" >Update</a><br>
 
 </body>
